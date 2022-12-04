@@ -1,13 +1,13 @@
-package ns.app.springboot3featurecheck;
+package ns.app.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBoot3FeatureCheckApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBoot3FeatureCheckApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
